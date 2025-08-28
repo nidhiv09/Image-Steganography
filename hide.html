@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hide Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔏 Hide Data in Image</h1>
+    <input type="file" id="uploadImage" accept="image/*"><br><br>
+    <textarea id="message" placeholder="Enter secret message..."></textarea><br>
+    <button class="btn" onclick="hideData()">Hide Data</button>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <p id="status"></p>
+    <div id="downloadLink"></div>
+    <br>
+    <a href="index.html" class="btn secondary">⬅ Back</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
